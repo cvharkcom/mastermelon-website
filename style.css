@@ -32,7 +32,7 @@ a:active {
 	display: flex;
 	width: 100vw;
 	height: 60vh;
-	background-image: url('hero.png');
+	background-image: url("http://i.imgur.com/F6rvUcr.png");
 	align-items: center;
 	justify-content: center;
 }
