@@ -43,32 +43,52 @@ a:active {
 }
 .item-list{
 	display: flex;
-	height: 300px;
-	width: 90vw;
+	height: auto;
+	width: 100vw;
 	margin: auto;
 }
 .item{
 	padding: 10px;
 	align-items: center;
-	background: #A1B887;
-	box-shadow: 10px 10px 5px #191C07;
-	border-style: solid;
-	border-width: 3px;
 	display: block;
-	margin: auto;
+	margin-left: left;
+	margin-right: left;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.item:hover{
+	background: #A1B887;
 }
 .item-icon{
-	width: 200px;
-	height: 200px;
+	width: 50px;
+	height: 50px;
 	display: block;
 	margin: auto;
 }
 .icon-caption{
 	text-align: center;
-	font-size: 30px;
+	font-size: 12px;
 	padding:1px;
-	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-bottom: 0;
 	margin-right: 0;
 	margin-left: 0; 
+}
+.schedule{
+	display: flex;
+	padding: 4px;
+}
+.day{
+	padding: 15px;
+	width: 14vw;
+	background: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
+.day-schedule{
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	width: 14vw;
 }
