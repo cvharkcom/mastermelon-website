@@ -1,2 +1,2 @@
 # mastermelon-website
-I this is my YouTube channel website. It's a WIP.
+This is my YouTube channel website.
