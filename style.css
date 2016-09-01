@@ -1,0 +1,74 @@
+html{
+	font-family: 'Press Start 2P', sans-serif;
+	background-color: #C5E1A5;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.hero{
+	font-size: 72px;
+	text-align: center;
+	background: white;
+	margin: auto;
+	display: flex;
+	width: 100vw;
+	height: 60vh;
+	background-image: url("http://i.imgur.com/F6rvUcr.png");
+	align-items: center;
+	justify-content: center;
+}
+.hero-text{
+	background-color: white;
+	padding: 16px;
+	box-shadow: 10px 10px 5px #191C07;
+}
+.item-list{
+	display: flex;
+	height: 300px;
+	width: 90vw;
+	margin: auto;
+}
+.item{
+	padding: 10px;
+	align-items: center;
+	background: #A1B887;
+	box-shadow: 10px 10px 5px #191C07;
+	border-style: solid;
+	border-width: 3px;
+	display: block;
+	margin: auto;
+}
+.item-icon{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+}
+.icon-caption{
+	text-align: center;
+	font-size: 30px;
+	padding:1px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-right: 0;
+	margin-left: 0; 
+}
