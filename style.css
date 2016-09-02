@@ -46,6 +46,7 @@ a:active {
 	height: auto;
 	width: 100vw;
 	margin: auto;
+	background: #BBD2A0;
 }
 .item{
 	padding: 10px;
@@ -55,7 +56,6 @@ a:active {
 	margin-right: left;
 	margin-bottom: 0;
 	margin-top: 0;
-	background: #BBD2A0;
 }
 .item:hover{
 	background: #A1B887;
